@@ -143,12 +143,33 @@ body {
 }
 
 
+.inspiration {
+        background-color: #E5E7EB; 
+        padding: 80px 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.quote-container {
+    max-width: 750px;
+}
+
 .quote {
-    background-color: #E5E7EB;
+
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
     font-style: italic;
     text-align: center;
     padding: 100px;
+    margin: 0 0 15px;
+}
+
+.author {
+    font-size: 18px;
+    font-style: italic;
+    text-align: right;
+    color: #444444;
+    font-weight: 500;
 }

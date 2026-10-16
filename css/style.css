@@ -93,6 +93,7 @@ body {
     font-weight: 700;
     margin-top: 5px;
     border-radius: 4px;
+    cursor: pointer;
 
 
 
@@ -105,3 +106,32 @@ body {
 }
 
 
+/* info-area */
+
+
+.info-area h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.card-body {
+    width: 150px;
+    
+}
+
+.boxes {
+    height: 150px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+}
